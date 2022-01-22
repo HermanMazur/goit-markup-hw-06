@@ -326,25 +326,34 @@
                         </svg>
                     </a>
                 </li>
-                <li class="social-item-footer"> <a class="social-link-footer" href="">
+                <li class="social-item-footer"> 
+                    <a class="social-link-footer" href="">
                         <svg class="social-icon-footer" width="20" height="20">
                             <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
                     </a>
                 </li>
-            
             </ul>
         </div>
+            <div class="footer-email-online">
+        <form action="#">
+            <label for="email-online" class="connect-footer online-title">Подпишитесь на рассылку</label>
+            <div class="btn-input">
+            <input type="email" id="email-online" name="email-online" placeholder="E-mail" class="online-email">
+            <button type="submit" class="comand-btn submit-footer-btn">Подписаться</button>
+            </div>
+        </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
             <svg class="social-icon-x" width="18" height="18">
                 <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use></svg>
             </button>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
-            <form action="#">
+            <form>
                 <div class="form-field">
                     <label for="user-name" class="input-text">Имя</label>
                 <input type="text" 
@@ -369,13 +378,15 @@
                     class="form-input" 
                     id="user-email">
                 </div>
+                <div class="form-field">
                     <label class="input-text" for="user-text">Комментарий</label>
                     <textarea 
                         name="user-text" 
                         id="user-text" 
                         class="form-text"
                         placeholder="Введите текст"></textarea>
-                    <button class="hero-item-btn" type="submit">Отправить</button>
+                </div>
+                    <button class="comand-btn" type="submit">Отправить</button>
 
                     <!-- <fieldset class="field">
                         <legend>Gender</legend>
@@ -395,7 +406,7 @@
             </form>
         </div>
     </div>
-    <script src="/goit-markup-hw-05/js/modal.js">
+    <script src="./js/modal.js">
     </script>
 </body>
 </html>

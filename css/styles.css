@@ -337,7 +337,7 @@ body {
 
 .comand-btn {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
@@ -349,6 +349,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .comand-btn:hover,
@@ -717,10 +720,42 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  display: flex;
+  /* margin-left: 93px; */
+}
+
+.footer-email-online {
+  width: 570px;
+  margin-left: 93px;
+}
+
+.btn-input {
+  display: flex;
+}
+
+.comand-btn.submit-footer-btn {
+  margin-left: 12px;
 }
 
 .footer-div-connect {
   margin-left: 70px;
+}
+
+/* .online-title {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 93px;
+} */
+
+.online-email {
+  background-color: transparent;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
 }
 
 /*-------backdrop-------*/
@@ -730,8 +765,6 @@ body {
   top: 0;
   width: 100vw;
   height: 100vh;
-  /* height: 100%;
-  width: 100%; */
   background-color: rgba(37, 38, 41, 0.62);
   transition: opacity 500ms linear, visibility 500ms;
 }
@@ -752,6 +785,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
 }
 
 .modal-close {
@@ -797,16 +831,17 @@ body {
   margin-bottom: 12px;
 }
 
+.form-field {
+  margin-bottom: 10px;
+}
+
 .form-input {
-  width: 448px;
+  width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
 
-.form-field {
-  margin-bottom: 28px;
-}
 .input-text {
   font-size: 12px;
   line-height: 1.16;
