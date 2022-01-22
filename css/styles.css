@@ -623,9 +623,14 @@ body {
 
 /*----------FOOTER----------*/
 .footer {
+  /* width: 100%; */
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+}
+
+.footer-navig {
+  min-width: 231px;
 }
 
 .web1 {
@@ -668,6 +673,14 @@ body {
 .footer-logo {
   display: block;
   margin-bottom: 20px;
+}
+
+/* .footer-navig-item:not(last-child) {
+  margin-bottom: 9px;
+} */
+
+.footer-navig-item {
+  display: flex;
 }
 
 .footer-map,
@@ -739,6 +752,7 @@ body {
 
 .footer-div-connect {
   margin-left: 70px;
+  width: 208px;
 }
 
 /* .online-title {
