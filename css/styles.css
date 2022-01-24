@@ -914,29 +914,6 @@ body {
   fill: var(--accent-color);
 }
 
-/* .checkbox-policy {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--first-color-text);
-  margin-left: 12px;
-  margin-right: 7px;
-} */
-
-.check-text span {
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--first-color-text);
-  border-radius: 2px;
-  margin-right: 8px;
-  margin-left: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .deal-talk {
   color: var(--accent-color);
 }
@@ -948,6 +925,18 @@ body {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.check-text span {
+  width: 16px;
+  height: 15px;
+  border: 2px solid var(--first-color-text);
+  border-radius: 2px;
+  margin-right: 8px;
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-check {
