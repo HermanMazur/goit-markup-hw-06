@@ -29,7 +29,8 @@
         </nav>
         <ul class="list header-connect">
             <li class="header-mailtel">
-                <a class="link header-mail" href="mailto:info@devstudio.com"> <svg class="icon-mail" width="16" height="12"> <use href="images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
+                <a class="link header-mail" href="mailto:info@devstudio.com"> 
+                    <svg class="icon-mail" width="16" height="12"><use href="images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
             </li>
             <li class="header-mailtel">
                 <a class="link header-tel" href="tel:+380961111111"> <svg class="icon-tel" width="10" height="16">
@@ -288,6 +289,8 @@
         </div>
     </section>
     </main>
+
+
     <footer class="footer">
         <div class="container container-footer">
             <div сlass="footer-navig">
@@ -303,11 +306,12 @@
             <li class="footer-navig-item"><a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
         </ul>
-        </div>
+            </div>
         <div class="footer-div-connect">
             <h3 class="connect-footer">присоединяйтесь</h3>
             <ul class="social-list-footer list">
-                <li class="social-item-footer"> <a class="social-link-footer" href="">
+                <li class="social-item-footer"> 
+                    <a class="social-link-footer" href="">
                         <svg class="social-icon-footer" width="20" height="20">
                             <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
@@ -334,6 +338,7 @@
                 </li>
             </ul>
         </div>
+
             <div class="footer-email-online">
         <form action="#">
             <label for="email-online" class="connect-footer online-title">Подпишитесь на рассылку</label>
@@ -345,6 +350,8 @@
             </div>
         </div>
     </footer>
+
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
@@ -355,27 +362,43 @@
             <form>
                 <div class="form-field">
                     <label for="user-name" class="input-text">Имя</label>
-                <input type="text" 
+                    <div class="input-wrap">
+                <input 
+                    type="text" 
                     name="user-name" 
                     class="form-input" 
                     required
                     id="user-name">
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="images/icons.svg#icon-person-black"></use>
+                    </svg>
+                    </div>
                 </div>
                 <div class="form-field">
                     <label for="user-tel" class="input-text">Телефон</label>
+                    <div class="input-wrap">
                     <input 
                     type="text" 
                     name="user-tel" 
                     class="form-input" 
                     id="user-tel">
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="images/icons.svg#icon-phone-black"></use>
+                    </svg>
+                    </div>
                 </div>
                 <div class="form-field">
                     <label for="user-email" class="input-text">Почта</label>
+                    <div class="input-wrap">
                     <input 
                     type="email"
                     name="user-email" 
                     class="form-input" 
                     id="user-email">
+                    <svg class="input-icon" width="18" height="18">
+                        <use href="images/icons.svg#icon-email-black"></use>
+                    </svg>
+                    </div>
                 </div>
                 <div class="form-field">
                     <label class="input-text" for="user-text">Комментарий</label>
@@ -385,8 +408,29 @@
                         class="form-text"
                         placeholder="Введите текст"></textarea>
                 </div>
+
+                <div class="form-field field-policy">
+                    <input 
+                    type="checkbox" 
+                    name="policy" 
+                    id="policy" 
+                    class="policy-check vissualy-hidden">
+                    <label for="policy" class="check-text"> 
+                        <span class="checkbox-policy"> 
+                            <svg class="icon-check" width="16" height="15">
+                        <use href="./images/icons.svg#icon-vector-gal"></use>
+                    </svg> 
+                </span> Соглашаюсь с рассылкой и принимаю 
+                <a href="" class="deal-talk">&nbspУсловия договора</a>
+                    </label>
+                </div>
                     <button class="comand-btn" type="submit">Отправить</button>
 
+
+
+
+
+                    
                     <!-- <fieldset class="field">
                         <legend>Gender</legend>
                         <label>
