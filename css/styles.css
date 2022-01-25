@@ -680,18 +680,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* .footer-navig-item {
-  display: flex;
-} */
 .footer-map,
 .footer-mail {
   margin-bottom: 9px;
 }
-
-/* .container-footer {
-  display: flex;
-  align-items: baseline;
-} */
 
 .social-list-footer {
   display: flex;
@@ -719,10 +711,13 @@ body {
   fill: currentColor;
 }
 
+.foot-btn-icon {
+  margin-left: 10px;
+}
+
 .social-link-footer:hover,
 .social-link-footer:focus {
   background-color: var(--accent-color);
-  /* color: var(--third-color-text); */
 }
 
 .connect-footer {
@@ -746,7 +741,8 @@ body {
 }
 
 .comand-btn.submit-footer-btn {
-  margin-left: 12px;
+  display: inline-flex;
+  padding-left: 29px;
 }
 
 .footer-div-connect {
@@ -769,6 +765,7 @@ body {
   border-radius: 4px;
   color: rgba(255, 255, 255, 0.6);
   padding-left: 16px;
+  margin-right: 12px;
 }
 
 /*-------backdrop-------*/
