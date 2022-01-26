@@ -841,7 +841,7 @@ body {
 }
 
 .modal-title {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
