@@ -634,9 +634,9 @@ body {
   align-items: baseline;
 }
 
-.footer-navig {
+/* .footer-navigator {
   min-width: 231px;
-}
+} */
 
 .web1 {
   color: var(--third-color-text);
